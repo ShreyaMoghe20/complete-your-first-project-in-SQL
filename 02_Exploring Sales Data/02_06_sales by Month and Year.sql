@@ -1,5 +1,6 @@
 -- Find sales by month and year
-SELECT
+
+SELECT 
 MONTHNAME(CreationDate) as MonthName,
 YEAR(CreationDate) as OrderYear,
 COUNT(Orders.OrderID) as TotalOrders,
